@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		717A22F71C7D4A8D0030AB2E /* Candidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717A22F61C7D4A8D0030AB2E /* Candidate.swift */; };
+		717A22F91C7D4C0E0030AB2E /* Party.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717A22F81C7D4C0E0030AB2E /* Party.swift */; };
+		717A22FB1C7D57780030AB2E /* PollFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717A22FA1C7D57780030AB2E /* PollFactory.swift */; };
+		717A22FD1C7D59450030AB2E /* bencarson.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 717A22FC1C7D59450030AB2E /* bencarson.jpg */; };
+		717A22FF1C7D594B0030AB2E /* TedCruz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 717A22FE1C7D594B0030AB2E /* TedCruz.jpg */; };
+		717A23011C7D594E0030AB2E /* Kasich16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 717A23001C7D594E0030AB2E /* Kasich16.jpg */; };
+		717A23031C7D59520030AB2E /* trump.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 717A23021C7D59520030AB2E /* trump.jpg */; };
+		717A23051C7D59560030AB2E /* MarcoRubio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 717A23041C7D59560030AB2E /* MarcoRubio.jpg */; };
+		717A23071C7D595A0030AB2E /* clinton-2016.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 717A23061C7D595A0030AB2E /* clinton-2016.jpg */; };
+		717A23091C7D595E0030AB2E /* berniesanders.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 717A23081C7D595E0030AB2E /* berniesanders.jpg */; };
+		717CACEC1C7D0A3300812030 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717CACEB1C7D0A3300812030 /* AppDelegate.swift */; };
+		717CACEE1C7D0A3300812030 /* CandidateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717CACED1C7D0A3300812030 /* CandidateViewController.swift */; };
+		717CACF11C7D0A3300812030 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 717CACEF1C7D0A3300812030 /* Main.storyboard */; };
+		717CACF31C7D0A3300812030 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 717CACF21C7D0A3300812030 /* Assets.xcassets */; };
+		717CACF61C7D0A3300812030 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 717CACF41C7D0A3300812030 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		717A22F61C7D4A8D0030AB2E /* Candidate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Candidate.swift; sourceTree = "<group>"; };
+		717A22F81C7D4C0E0030AB2E /* Party.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Party.swift; sourceTree = "<group>"; };
+		717A22FA1C7D57780030AB2E /* PollFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PollFactory.swift; sourceTree = "<group>"; };
+		717A22FC1C7D59450030AB2E /* bencarson.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bencarson.jpg; sourceTree = "<group>"; };
+		717A22FE1C7D594B0030AB2E /* TedCruz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TedCruz.jpg; sourceTree = "<group>"; };
+		717A23001C7D594E0030AB2E /* Kasich16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kasich16.jpg; sourceTree = "<group>"; };
+		717A23021C7D59520030AB2E /* trump.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = trump.jpg; sourceTree = "<group>"; };
+		717A23041C7D59560030AB2E /* MarcoRubio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MarcoRubio.jpg; sourceTree = "<group>"; };
+		717A23061C7D595A0030AB2E /* clinton-2016.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "clinton-2016.jpg"; sourceTree = "<group>"; };
+		717A23081C7D595E0030AB2E /* berniesanders.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = berniesanders.jpg; sourceTree = "<group>"; };
+		717CACE81C7D0A3300812030 /* Bakshi_The US Presidential App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bakshi_The US Presidential App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		717CACEB1C7D0A3300812030 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		717CACED1C7D0A3300812030 /* CandidateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CandidateViewController.swift; sourceTree = "<group>"; };
+		717CACF01C7D0A3300812030 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		717CACF21C7D0A3300812030 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		717CACF51C7D0A3300812030 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		717CACF71C7D0A3300812030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		717CACE51C7D0A3300812030 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		717CACDF1C7D0A3300812030 = {
+			isa = PBXGroup;
+			children = (
+				717CACEA1C7D0A3300812030 /* Bakshi_The US Presidential App */,
+				717CACE91C7D0A3300812030 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		717CACE91C7D0A3300812030 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				717CACE81C7D0A3300812030 /* Bakshi_The US Presidential App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		717CACEA1C7D0A3300812030 /* Bakshi_The US Presidential App */ = {
+			isa = PBXGroup;
+			children = (
+				717CACEB1C7D0A3300812030 /* AppDelegate.swift */,
+				717CACED1C7D0A3300812030 /* CandidateViewController.swift */,
+				717CACEF1C7D0A3300812030 /* Main.storyboard */,
+				717CACF21C7D0A3300812030 /* Assets.xcassets */,
+				717A23021C7D59520030AB2E /* trump.jpg */,
+				717A22FE1C7D594B0030AB2E /* TedCruz.jpg */,
+				717A23041C7D59560030AB2E /* MarcoRubio.jpg */,
+				717CACF41C7D0A3300812030 /* LaunchScreen.storyboard */,
+				717A23001C7D594E0030AB2E /* Kasich16.jpg */,
+				717A23061C7D595A0030AB2E /* clinton-2016.jpg */,
+				717A23081C7D595E0030AB2E /* berniesanders.jpg */,
+				717CACF71C7D0A3300812030 /* Info.plist */,
+				717A22FC1C7D59450030AB2E /* bencarson.jpg */,
+				717A22F61C7D4A8D0030AB2E /* Candidate.swift */,
+				717A22F81C7D4C0E0030AB2E /* Party.swift */,
+				717A22FA1C7D57780030AB2E /* PollFactory.swift */,
+			);
+			path = "Bakshi_The US Presidential App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		717CACE71C7D0A3300812030 /* Bakshi_The US Presidential App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 717CACFA1C7D0A3300812030 /* Build configuration list for PBXNativeTarget "Bakshi_The US Presidential App" */;
+			buildPhases = (
+				717CACE41C7D0A3300812030 /* Sources */,
+				717CACE51C7D0A3300812030 /* Frameworks */,
+				717CACE61C7D0A3300812030 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bakshi_The US Presidential App";
+			productName = "Bakshi_The US Presidential App";
+			productReference = 717CACE81C7D0A3300812030 /* Bakshi_The US Presidential App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		717CACE01C7D0A3300812030 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Bakshi,Ronak";
+				TargetAttributes = {
+					717CACE71C7D0A3300812030 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 717CACE31C7D0A3300812030 /* Build configuration list for PBXProject "Bakshi_The US Presidential App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 717CACDF1C7D0A3300812030;
+			productRefGroup = 717CACE91C7D0A3300812030 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				717CACE71C7D0A3300812030 /* Bakshi_The US Presidential App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		717CACE61C7D0A3300812030 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717A23051C7D59560030AB2E /* MarcoRubio.jpg in Resources */,
+				717CACF61C7D0A3300812030 /* LaunchScreen.storyboard in Resources */,
+				717A22FF1C7D594B0030AB2E /* TedCruz.jpg in Resources */,
+				717A23071C7D595A0030AB2E /* clinton-2016.jpg in Resources */,
+				717CACF31C7D0A3300812030 /* Assets.xcassets in Resources */,
+				717A23091C7D595E0030AB2E /* berniesanders.jpg in Resources */,
+				717A23011C7D594E0030AB2E /* Kasich16.jpg in Resources */,
+				717A23031C7D59520030AB2E /* trump.jpg in Resources */,
+				717CACF11C7D0A3300812030 /* Main.storyboard in Resources */,
+				717A22FD1C7D59450030AB2E /* bencarson.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		717CACE41C7D0A3300812030 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717A22F71C7D4A8D0030AB2E /* Candidate.swift in Sources */,
+				717CACEE1C7D0A3300812030 /* CandidateViewController.swift in Sources */,
+				717A22F91C7D4C0E0030AB2E /* Party.swift in Sources */,
+				717A22FB1C7D57780030AB2E /* PollFactory.swift in Sources */,
+				717CACEC1C7D0A3300812030 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		717CACEF1C7D0A3300812030 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				717CACF01C7D0A3300812030 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		717CACF41C7D0A3300812030 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				717CACF51C7D0A3300812030 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		717CACF81C7D0A3300812030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		717CACF91C7D0A3300812030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		717CACFB1C7D0A3300812030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bakshi_The US Presidential App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Bakshi-The-US-Presidential-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		717CACFC1C7D0A3300812030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bakshi_The US Presidential App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Bakshi-The-US-Presidential-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		717CACE31C7D0A3300812030 /* Build configuration list for PBXProject "Bakshi_The US Presidential App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				717CACF81C7D0A3300812030 /* Debug */,
+				717CACF91C7D0A3300812030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		717CACFA1C7D0A3300812030 /* Build configuration list for PBXNativeTarget "Bakshi_The US Presidential App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				717CACFB1C7D0A3300812030 /* Debug */,
+				717CACFC1C7D0A3300812030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 717CACE01C7D0A3300812030 /* Project object */;
+}
