@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71F3A8A31CA8BD71006DDBD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F3A8A21CA8BD71006DDBD0 /* AppDelegate.swift */; };
+		71F3A8A51CA8BD71006DDBD0 /* TranslateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F3A8A41CA8BD71006DDBD0 /* TranslateViewController.swift */; };
+		71F3A8A81CA8BD71006DDBD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71F3A8A61CA8BD71006DDBD0 /* Main.storyboard */; };
+		71F3A8AA1CA8BD71006DDBD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71F3A8A91CA8BD71006DDBD0 /* Assets.xcassets */; };
+		71F3A8AD1CA8BD71006DDBD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71F3A8AB1CA8BD71006DDBD0 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		71F3A89F1CA8BD71006DDBD0 /* Bakshi_The Multilingual App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bakshi_The Multilingual App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71F3A8A21CA8BD71006DDBD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		71F3A8A41CA8BD71006DDBD0 /* TranslateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateViewController.swift; sourceTree = "<group>"; };
+		71F3A8A71CA8BD71006DDBD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71F3A8A91CA8BD71006DDBD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71F3A8AC1CA8BD71006DDBD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71F3A8AE1CA8BD71006DDBD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71F3A89C1CA8BD71006DDBD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71F3A8961CA8BD71006DDBD0 = {
+			isa = PBXGroup;
+			children = (
+				71F3A8A11CA8BD71006DDBD0 /* Bakshi_The Multilingual App */,
+				71F3A8A01CA8BD71006DDBD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71F3A8A01CA8BD71006DDBD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71F3A89F1CA8BD71006DDBD0 /* Bakshi_The Multilingual App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71F3A8A11CA8BD71006DDBD0 /* Bakshi_The Multilingual App */ = {
+			isa = PBXGroup;
+			children = (
+				71F3A8A21CA8BD71006DDBD0 /* AppDelegate.swift */,
+				71F3A8A41CA8BD71006DDBD0 /* TranslateViewController.swift */,
+				71F3A8A61CA8BD71006DDBD0 /* Main.storyboard */,
+				71F3A8A91CA8BD71006DDBD0 /* Assets.xcassets */,
+				71F3A8AB1CA8BD71006DDBD0 /* LaunchScreen.storyboard */,
+				71F3A8AE1CA8BD71006DDBD0 /* Info.plist */,
+			);
+			path = "Bakshi_The Multilingual App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71F3A89E1CA8BD71006DDBD0 /* Bakshi_The Multilingual App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71F3A8B11CA8BD71006DDBD0 /* Build configuration list for PBXNativeTarget "Bakshi_The Multilingual App" */;
+			buildPhases = (
+				71F3A89B1CA8BD71006DDBD0 /* Sources */,
+				71F3A89C1CA8BD71006DDBD0 /* Frameworks */,
+				71F3A89D1CA8BD71006DDBD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bakshi_The Multilingual App";
+			productName = "Bakshi_The Multilingual App";
+			productReference = 71F3A89F1CA8BD71006DDBD0 /* Bakshi_The Multilingual App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71F3A8971CA8BD71006DDBD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Bakshi,Ronak";
+				TargetAttributes = {
+					71F3A89E1CA8BD71006DDBD0 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 71F3A89A1CA8BD71006DDBD0 /* Build configuration list for PBXProject "Bakshi_The Multilingual App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71F3A8961CA8BD71006DDBD0;
+			productRefGroup = 71F3A8A01CA8BD71006DDBD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71F3A89E1CA8BD71006DDBD0 /* Bakshi_The Multilingual App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71F3A89D1CA8BD71006DDBD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F3A8AD1CA8BD71006DDBD0 /* LaunchScreen.storyboard in Resources */,
+				71F3A8AA1CA8BD71006DDBD0 /* Assets.xcassets in Resources */,
+				71F3A8A81CA8BD71006DDBD0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71F3A89B1CA8BD71006DDBD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71F3A8A51CA8BD71006DDBD0 /* TranslateViewController.swift in Sources */,
+				71F3A8A31CA8BD71006DDBD0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		71F3A8A61CA8BD71006DDBD0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71F3A8A71CA8BD71006DDBD0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71F3A8AB1CA8BD71006DDBD0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71F3A8AC1CA8BD71006DDBD0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71F3A8AF1CA8BD71006DDBD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71F3A8B01CA8BD71006DDBD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71F3A8B21CA8BD71006DDBD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bakshi_The Multilingual App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Bakshi-The-Multilingual-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		71F3A8B31CA8BD71006DDBD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Bakshi_The Multilingual App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Bakshi-The-Multilingual-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71F3A89A1CA8BD71006DDBD0 /* Build configuration list for PBXProject "Bakshi_The Multilingual App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71F3A8AF1CA8BD71006DDBD0 /* Debug */,
+				71F3A8B01CA8BD71006DDBD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71F3A8B11CA8BD71006DDBD0 /* Build configuration list for PBXNativeTarget "Bakshi_The Multilingual App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71F3A8B21CA8BD71006DDBD0 /* Debug */,
+				71F3A8B31CA8BD71006DDBD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71F3A8971CA8BD71006DDBD0 /* Project object */;
+}
